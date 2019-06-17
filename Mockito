@@ -1,0 +1,13 @@
+1.Mocktio Setup.
+2.SUT (System Under Test).
+3.stub.
+4.Mocking Objects.
+5.discussed about Argument Matcher,Throwing exceptions,(when,thenReturn,thenThrow,mock methods).
+6.Argument Matcher(pass any arg dynamically).
+7.BDD(Behavior Driven Development) encourages writing tests in a natural, human-readable language that focuses on the behavior of the application.
+8.verify() method is used to check whether the mock object's particular method is called or not(in case where a method returns nothing i.e., void).
+for checking the side effects.
+9.ArgumentCaptor is used to capture the argument passed to the method.
+
+Hamcrest Matchers:
+Understand,readable,maintainable.
