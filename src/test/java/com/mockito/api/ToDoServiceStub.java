@@ -17,10 +17,11 @@ public class ToDoServiceStub implements TodoService {
 	public List<String> retrieveTodos(String user) {
 		return Arrays.asList("Learn Spring MVC","Learn Spring","Learn to Dance");
 	}
-
-	@Override
+	
 	public void deleteTodos(String todo) {
+		// TODO Auto-generated method stub
 		
 	}
+
 
 }

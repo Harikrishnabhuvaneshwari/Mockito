@@ -9,5 +9,20 @@
 for checking the side effects.
 9.ArgumentCaptor is used to capture the argument passed to the method.
 
-Hamcrest Matchers:
-Understand,readable,maintainable.
+10.Hamcrest Matchers:
+Hamcrest library provides methods which are easy to Understand, and improves the test readability,maintainable.
+
+11.Mockito Annotations: with (@RunWith(MockitoJunitRunner.class))
+@Mock --> Used to mock objects.
+@InjectMock --> Used to inject mocked objects into dependent objects.
+@Captor --> Used to create Argument Captor Object.
+
+12.spy()--> Also called as partial mocking.Not preferred to use without necessary.
+
+
+12.JUnit Rules. Using MockitoJUnit.rule() instead of @RunWith(MockitoJUnitRunner.class).
+public MockitoRule rule=MockitoJunit.rule();
+* With @RunWith annotation we cannot define more Runner classes, so @Rule annotation is used instead of it.
+
+
+

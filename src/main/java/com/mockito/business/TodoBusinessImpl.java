@@ -17,13 +17,12 @@ public class TodoBusinessImpl {
 
 	public List<String> retrieveTodosRelatedToSpring(String user) {
 		List<String> filteredTodos = new ArrayList<String>();
-		List<String> allTodos = new ArrayList<>();
+		List<String> allTodos = todoService.retrieveTodos(user);
 		for (String todo : allTodos) {
 			if (todo.contains("Spring")) {
 				filteredTodos.add(todo);
 			}
 		}
-		todoService.retrieveTodos(user);
 		return filteredTodos;
 	}
 
